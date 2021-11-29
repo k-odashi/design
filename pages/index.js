@@ -12,8 +12,8 @@ export default function Home({ data }) {
   return (
     <div className="font-body">
 
-      {/* <Header data={data} /> */}
-{/* 
+      <Header data={data} />
+
       <main className="flex flex-col justify-center p-5">
         {data.map((item) => (
           <section key={item.id} className="mb-8 grid grid-cols-3">
@@ -40,7 +40,7 @@ export default function Home({ data }) {
 
           </section>
         ))}
-      </main> */}
+      </main>
 
       <Footer />
 
